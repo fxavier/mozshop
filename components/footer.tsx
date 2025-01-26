@@ -1,6 +1,6 @@
 export function Footer() {
 	return (
-		<footer className='w-full border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'>
+		<footer className='w-full border-t border-gray-700 bg-[#131921] text-white'>
 			<div className='container py-10'>
 				<div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
 					<div>
@@ -40,7 +40,7 @@ export function Footer() {
 						</ul>
 					</div>
 				</div>
-				<div className='mt-10 text-center text-sm text-muted-foreground'>
+				<div className='mt-10 text-center text-sm text-muted-foreground text-white'>
 					<p>
 						© {new Date().getFullYear()} mozshop Loja Online. Todos os direitos
 						reservados.
